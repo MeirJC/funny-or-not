@@ -1,0 +1,54 @@
+* {
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+.flxCntCnt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counters {
+  justify-content: space-evenly;
+}
+
+.btn {
+  padding: 1rem;
+  background-color: #ddddddaa;
+  width: 10vmin;
+  height: 10vmin;
+  border-radius: 0.85rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn:hover {
+  background-color: #eeeeeedd;
+}
+
+.btn span {
+  font-size: 4rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.emoji {
+  font-size: 3rem;
+}
+
+.header {
+  font-size: clamp(2rem, 5.5vw, 3.6rem);
+}
+
+.picContainer {
+  max-width: 98vw;
+}
+
+.picContainer img {
+  max-width: 100%;
+}
