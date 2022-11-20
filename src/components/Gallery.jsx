@@ -2,6 +2,15 @@ import React from "react";
 import "./Gallery.css";
 
 function Gallery({ yes, no, setYes, setNo }) {
+  const imgArr = [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg",
+  ];
   return (
     <div>
       <h1 className="header">My Stupid Memes</h1>
@@ -14,7 +23,7 @@ function Gallery({ yes, no, setYes, setNo }) {
         </h3>
       </div>
       <div className="picContainer">
-        <img src="memes/1.jpg" alt="" />
+        <img src={`memes/${imgArr[0 + yes + no]}`} alt="" />
       </div>
       <div className="buttons">
         <h1 className="btn">
